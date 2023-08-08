@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left,pink, white);
+}
+
+.image{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-family : 'Borel', cursive ; 
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-around;
+    position: absolute;
+    top: 270px;
+    right: 30px;
+    font-family : 'Borel', cursive ; 
+   }
+
+.button{
+    background-color: pink;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family : 'Borel', cursive ; 
+    width: 500px;
+    margin-top: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family : 'Borel', cursive ; 
+    
+}
+
+input{
+    margin-bottom: 20px;
+    width: 20%;
+}
+
+.radio{
+   
+    flex-direction: column;
+    display: block;
+    
+}
+
+.stock{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-family:'Borel', cursive ;
+    height: 150px;
+    width: 200px;
+    align-items: center;
+    margin: 0 auto; 
+
+}
+#formulaire{
+    display: flex;
+    flex-direction: column;
+    font-family:'Borel', cursive ;
+    align-items: center;
+    margin-top: 50px;
+    
+}
