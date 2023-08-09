@@ -76,3 +76,17 @@ input{
     margin-top: 50px;
     
 }
+
+.name{
+    font-family:'Borel', cursive ;
+    text-align: center;
+    display: flex;
+    
+
+}
+.volumes{
+    font-family:'Borel', cursive ;
+    text-align: center;
+    display: flex;
+    
+}
